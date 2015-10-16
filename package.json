@@ -1,0 +1,28 @@
+{
+  "name": "control-panel-redux",
+  "version": "0.1.0",
+  "description": "Control Panel on Redux",
+  "main": "js/app.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "canon-react": "^0.6.1",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.2",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  },
+  "scripts": {
+    "start": "watchify js/app.js -o js/bundle.js -v -d .",
+    "test": "gulp test",
+    "run": "node server.js"
+  },
+  "author": "Adam Pickeral"
+}
