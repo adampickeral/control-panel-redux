@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# script/server: Run the application server and watch for view file changes 
+
+./node_modules/.bin/grunt watch & node server
